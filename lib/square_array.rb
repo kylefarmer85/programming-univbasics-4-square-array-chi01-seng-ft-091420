@@ -9,6 +9,5 @@
 def square_array(numbers)
   new_array = []
   while numbers.count { |i| new_array.push(numbers[i] ** 2) }
-  end
 new_array
 end
